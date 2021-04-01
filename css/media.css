@@ -20,8 +20,12 @@
     .right-arrow{
         margin-left: 20px;
     }
-    .more_2{
-        padding-left: 55px;
+    #first_button{
+        width: 93%;
+    }
+    #second_button{
+        width: 90%;
+        padding-left: 47px;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -39,7 +43,11 @@
         margin-left: 35px;
         width: 150%;
     }
-    .more_2{
-        padding-right: 100px;
+    #first_button{
+        width: 93%;
+    }
+    #second_button{
+        padding-right: 50px;
+        width: 85%;
     }
 }
