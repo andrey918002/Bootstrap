@@ -15,3 +15,251 @@ body textarea:focus:required:invalid {
 body input:required:valid,
 body textarea:required:valid {
   color: green; }
+
+.container{
+  border: 1px solid silver;
+}
+.header{
+  background-color: #1b5589;
+}
+.header div ul{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.header div ul li{
+  text-align: left;
+  margin: 0 20px;
+}
+.header div ul li img{
+  border-radius: 50%;
+  width: 100%;
+  max-width: 50px;
+}
+.header div ul li a{
+  color: #8ca4b7;
+  text-decoration: none;
+}
+.header div ul li:nth-child(2) a{
+  color: #dbf3f4;
+}
+.header div ul li a:hover{
+  color: #dbf3f4;
+}
+.header div{
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1{
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0 30px;
+  color: #726e6e;
+  border-bottom: 1px solid silver;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+  color: #726e6e;
+  padding: 40px 40px 40px 19px;
+}
+.rewards_h2{
+  padding-right: 105px;
+}
+.news_frame{
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin: 0 0 30px 30px;
+}
+.weekends{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.weekends div{
+  padding: 5px 5px;
+}
+.consult{
+  padding: 5px 20px;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+}
+.consult div{
+  padding: 10px 0;
+}
+.weekends div:nth-child(2)>div:nth-child(1), .consult div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+}
+.weekends div:nth-child(2){
+  width: 100%;
+}
+span{
+  color: #534f4f;
+}
+.event{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.days{
+  font-size: 12px;
+  color: grey;
+}
+.left-arrow{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.large-arrow-left{
+  margin: 10px -87px;
+  width: 120%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.short-arrow-left{
+  margin: 10px -87px;
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.square-left{
+  padding: 0 5px;
+  height: 100%;
+  text-align: right;
+  line-height: 22px;
+  max-height: 22px;
+  border: 1px solid silver;
+  border-right: none;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+}
+.triangle-left{
+  width: 10px;
+  max-height: 20px;
+  height: 100%;
+  border: 11px solid transparent;
+  border-left: 17px solid white;
+  z-index: 2;
+}
+.inner_triangle-left{
+  width: 10px;
+  max-height: 20px;
+  height: 100%;
+  border: 11px solid transparent;
+  border-left: 17px solid black;
+  position: absolute;
+  right: -72px;
+}
+.rewards{
+  height: 100%;
+  max-height: 22px;
+  margin: 20px 0 0 55px;
+}
+.rewards::before{
+  content: "+1";
+}
+.rewards:nth-child(1){
+  margin-top: 10px;
+}
+.rewards img{
+  width: 30px;
+}
+.right-arrow{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.large-arrow-right{
+  margin: 10px -36px;
+  width: 120%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.short-arrow-right{
+  margin: 10px -36px;
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.square-right{
+  padding: 0 5px;
+  text-align: left;
+  line-height: 22px;
+  margin: 0 4px;
+  height: 100%;
+  max-height: 22px;
+  border: 1px solid silver;
+  border-left: none;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+.triangle-right{
+  margin: 0 -4px;
+  width: 10px;
+  max-height: 20px;
+  height: 100%;
+  border: 11px solid transparent;
+  border-right: 17px solid white;
+  z-index: 2;
+}
+.inner_triangle-right{
+  width: 10px;
+  max-height: 20px;
+  height: 100%;
+  border: 11px solid transparent;
+  border-right: 17px solid black;
+  position: absolute;
+  left: -25px;
+}
+.more_1{
+  margin: 0 0 30px 30px;
+  background-color: gray;
+}
+.more_2{
+  margin: 0 80px 30px 0;
+  background-color: #e9e9e9;
+}
+.more_1, .more_2{
+  text-align: center;
+  border-radius: 5px;
+  height: 100%;
+  max-height: 50px;
+}
+.more_1 a{
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more_2 a{
+  color: black;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:hover{
+  text-decoration: none;
+}
+.more_1 a:hover{
+  background-color: #e9e9e9;
+  color: black;
+}
