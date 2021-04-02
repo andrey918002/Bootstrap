@@ -16,7 +16,7 @@ body input:required:valid,
 body textarea:required:valid {
   color: green; }
 
-.row{
+.container-lg{
   border: 2px solid silver;
 }
 .header{
@@ -241,7 +241,7 @@ input{
 #second_button{
   background-color: #cac5c5;
   color: black;
-  padding-right: 35px;
+  padding-right: 20px;
   width: 89%;
 }
 #first_button:hover, #second_button:hover{
